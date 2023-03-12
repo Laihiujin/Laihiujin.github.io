@@ -10,7 +10,7 @@ body {
   }
 }
 .bg-gradient {
-  background: url("../img/1.PNG") 100%;
+  background: url("../img/4.PNG") 100%;
   background: #037ef3;
   background: -moz-linear-gradient(top, #037ef3 0%, #f391ee 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #037ef3), color-stop(100%, #f391ee));
@@ -24,7 +24,7 @@ body {
   z-index: -2;
 }
 .bg-pattern {
-  background: url("../img/1.png") 100% no-repeat;
+  background: url("../img/4.PNG") 100% no-repeat;
   background-position: center;
   opacity: 0.5;
   min-width: 100vw;
