@@ -10,20 +10,25 @@ body {
   }
 }
 .bg-gradient {
-  background: #192224;
-  background: -moz-linear-gradient(top, #192224 0%, #21728b 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #192224), color-stop(100%, #21728b));
-  background: -webkit-linear-gradient(top, #192224 0%, #21728b 100%);
-  background: -o-linear-gradient(top, #192224 0%, #21728b 100%);
-  background: -ms-linear-gradient(top, #192224 0%, #21728b 100%);
-  background: linear-gradient(to bottom, #192224 0%, #21728b 100%);
+  background: url("../img/4.jpg") 100%;
+  background: #037ef3;
+  background: -moz-linear-gradient(top, #037ef3 0%, #f391ee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #037ef3), color-stop(100%, #f391ee));
+  background: -webkit-linear-gradient(top, #037ef3 0%, #f391ee 100%);
+  background: -o-linear-gradient(top, #037ef3 0%, #f391ee 100%);
+  background: -ms-linear-gradient(top, #037ef3 0%, #f391ee 100%);
+  background: linear-gradient(to bottom, #037ef3 0%, #f391ee 100%);
   width: 100vw;
   height: 100vh;
   position: fixed;
   z-index: -2;
 }
 .bg-pattern {
-  background: url("../img/bg-pattern.png") repeat;
+  background: url("../img/4.jpg") 100% no-repeat;
+  background-position: center;
+/* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+/* 让背景图基于容器大小伸缩 */
+/* 设置背景颜色，背景图加载过程中会显示背景色 */
   opacity: 0.5;
   width: 100vw;
   height: 100vh;
@@ -42,7 +47,7 @@ a:active {
 }
 a:hover {
   color: #d7ecff;
-  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #228dff;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #fff;
   border-bottom: 1px dotted transparent;
   text-decoration: none;
 }
@@ -60,7 +65,7 @@ a:hover {
   background: #62b4ff;
 }
 .push {
-  height: 150px;
+  height: 300px;
 }
 @media (max-width: 33.9em) {
   .push {
@@ -83,7 +88,7 @@ header .logo a:active {
 header .logo .logo-icon {
   font-size: 60px;
   color: #d7ecff;
-  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #ff02f3;
 }
 header .logo img {
   width: 100px;
@@ -94,7 +99,7 @@ header .logo .title {
   line-height: 100px;
   color: #d7ecff;
   font-family: "Orbitron", sans-serif;
-  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #ff02f3;
 }
 section.main {
   color: #d7ecff;
@@ -149,7 +154,7 @@ section.main .post .post-header:after {
 section.main .post .post-header h1.title {
   text-align: center;
   font-family: "Orbitron", sans-serif;
-  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #ff02f3;
   cursor: pointer;
 }
 section.main .post .post-header h1.title a,
@@ -245,7 +250,7 @@ section.main .post-tags i {
   background: transparent;
 }
 .featherlight .featherlight-content .featherlight-close:hover {
-  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #228dff;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #fff;
 }
 section.main .post .content h1,
 section.main .post .content h2,
@@ -258,7 +263,7 @@ section.main .post .content h6 {
 }
 section.main .post .content h1,
 section.main .post .content h2 {
-  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #ff02f3;
 }
 section.main .post .content h1 {
   width: 100%;
@@ -271,7 +276,7 @@ section.main .post .content h2 {
 }
 section.main .post .content h3 {
   margin: 50px 0 15px 0;
-  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #228dff;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 7px #fff;
 }
 section.main .post .content hr {
   border-color: #d7ecff;
