@@ -6,18 +6,19 @@ body {
 }
 @media (max-width: 33.9em) {
   body {
-    font-size: 0.7em;
+    font-size: 0.83em;
   }
 }
 .bg-gradient {
   background: url("../img/4.PNG") 100%;
-  background: #037ef3;
-  background: -moz-linear-gradient(top, #037ef3 0%, #f391ee 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #037ef3), color-stop(100%, #f391ee));
-  background: -webkit-linear-gradient(top, #037ef3 0%, #f391ee 100%);
-  background: -o-linear-gradient(top, #037ef3 0%, #f391ee 100%);
-  background: -ms-linear-gradient(top, #037ef3 0%, #f391ee 100%);
-  background: linear-gradient(to bottom, #037ef3 0%, #f391ee 100%);
+  background-size: cover;
+  background: #53a6fb;
+  background: -moz-linear-gradient(top, #53a6fb 0%, #f391ee 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #53a6fb), color-stop(100%, #f391ee));
+  background: -webkit-linear-gradient(top, #53a6fb 0%, #f391ee 100%);
+  background: -o-linear-gradient(top, #53a6fb 0%, #f391ee 100%);
+  background: -ms-linear-gradient(top, #53a6fb 0%, #f391ee 100%);
+  background: linear-gradient(to bottom, #53a6fb 0%, #f391ee 100%);
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -26,7 +27,8 @@ body {
 .bg-pattern {
   background: url("../img/4.PNG") 100% no-repeat;
   background-position: center;
-  opacity: 0.5;
+  background-size: contain;
+  opacity: 0.7;
   min-width: 100vw;
   min-height: 100vh;
   position: fixed;
