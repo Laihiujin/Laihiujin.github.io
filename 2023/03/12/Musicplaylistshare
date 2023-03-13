@@ -25,7 +25,7 @@ Laihiujin-Va">
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="MY Music Playlist Share"/>
+        <meta property="og:title" content="My Music Playlist Share"/>
     
 
     <!--Open Graph Description-->
@@ -50,7 +50,7 @@ Laihiujin-Va">
 
     <!-- Title -->
     
-    <title>MY Music Playlist Share - Laihiujin</title>
+    <title>My Music Playlist Share - Laihiujin</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -157,7 +157,7 @@ Laihiujin-Va">
     <div class="post-header">
         <h1 class="title">
             <a href="/2023/03/12/Musicplaylistshare">
-                MY Music Playlist Share
+                My Music Playlist Share
             </a>
         </h1>
 <!--        <div class="post-info">-->
@@ -230,7 +230,7 @@ Laihiujin-Va">
         <ul>
             
             <li>
-                <a class="footer-post" href="/2023/03/12/Musicplaylistshare">MY Music Playlist Share</a>
+                <a class="footer-post" href="/2023/03/12/Musicplaylistshare">My Music Playlist Share</a>
             </li>
             
         </ul>
