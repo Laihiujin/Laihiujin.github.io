@@ -12,14 +12,14 @@ tags:
 
 {% for i in range(1, 16) %}
 
-<video width="320" height="240" controls>
+ <video width="360" height="240" controls style="margin: 0 auto;">
   <source src="https://raw.githubusercontent.com/Laihiujin/Laihiujin.github.io/master/source/videos/A/A{{ i }}.MP4" type="video/mp4">
   您的浏览器不支持视频标签。
 </video>
 
 
-{% endfor %}
 
+{% endfor %}
 
 
 
@@ -27,12 +27,15 @@ tags:
 
 
 
-{% for i in range(1, 5) %}
+{% for i in range(1, 6) %}
 
-<video width="320" height="240" controls>
+<video width="360" height="240" controls>
   <source src="https://raw.githubusercontent.com/Laihiujin/Laihiujin.github.io/master/source/videos/P/P{{ i }}.MP4" type="video/mp4">
   您的浏览器不支持视频标签。
 </video>
 
 
+
 {% endfor %}
+
+
