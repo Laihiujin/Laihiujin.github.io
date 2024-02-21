@@ -27,7 +27,7 @@ tags:
 
 
 
-{% for i in range(1, 6) %}
+{% for i in range(1, 5) %}
 
 <video width="360" height="240" controls>
   <source src="https://raw.githubusercontent.com/Laihiujin/Laihiujin.github.io/master/source/videos/P/P{{ i }}.MP4" type="video/mp4">
@@ -37,5 +37,4 @@ tags:
 
 
 {% endfor %}
-
 
